@@ -13,4 +13,4 @@ COPY src src
 
 EXPOSE 8000
 
-CMD ["./mvnw", "spring-boot:run"]
+CMD ["./mvnw", "spring-boot:run", "-Dspring-boot.run.arguments=--server.port=8000"]
